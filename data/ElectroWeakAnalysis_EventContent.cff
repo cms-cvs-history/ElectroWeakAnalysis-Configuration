@@ -1,0 +1,6 @@
+#
+# ElectroWeakAnalysis event content 
+#
+
+include "ElectroWeakAnalysis/ZReco/data/zToMuMuEventContent.cff"
+include "ElectroWeakAnalysis/ZReco/data/zToEEEventContent.cff"
