@@ -1,6 +1,9 @@
 #
-# ElectoWeakAnalysis standard sequences
+# ElectroWeakAnalysis standard sequences
 #
 
-include "ElectroWeakAnalysis/ZReco/data/zToMuMuSequences.cff"
-include "ElectroWeakAnalysis/ZReco/data/zToEESequences.cff"
+include "ElectroWeakAnalysis/ZReco/data/ZReco.cff"
+
+sequence electroWeakAnalysis = {
+  zReco
+}
