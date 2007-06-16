@@ -2,23 +2,14 @@
 # ElectroWeakAnalysis event content 
 #
 
-include "ElectroWeakAnalysis/ZReco/data/zToMuMuEventContent.cff"
-include "ElectroWeakAnalysis/ZReco/data/zToEEEventContent.cff"
+include "ElectroWeakAnalysis/ZReco/data/zToMuMu_EventContent.cff"
+include "ElectroWeakAnalysis/ZReco/data/zToEE_EventContent.cff"
 
 block ElectroWeakAnalysisEventContent = {
   untracked vstring outputCommands = {
-     "drop *"
-  }
+ }
 }
 
-block AODSIMPlusElectroWeakAnalysisEventContent = {
-  untracked vstring outputCommands = {
-     "drop *"
-  }
-}
 
 replace ElectroWeakAnalysisEventContent.outputCommands += ZToMuMuEventContent.outputCommands
 replace ElectroWeakAnalysisEventContent.outputCommands += ZToEEEventContent.outputCommands
-replace AODSIMPlusElectroWeakAnalysisEventContent.outputCommands += AODSIMPlusZToMuMuEventContent.outputCommands
-replace AODSIMPlusElectroWeakAnalysisEventContent.outputCommands += AODSIMPlusZToEEEventContent.outputCommands
-
