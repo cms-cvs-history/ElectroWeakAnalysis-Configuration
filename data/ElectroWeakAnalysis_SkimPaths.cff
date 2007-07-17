@@ -1,0 +1,6 @@
+#
+# ElectroWeakAnalysis standard sequences
+#
+
+include "ElectroWeakAnalysis/ZReco/data/ZRecoPaths.cff"
+
