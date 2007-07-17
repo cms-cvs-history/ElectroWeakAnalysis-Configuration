@@ -2,5 +2,5 @@
 # ElectroWeakAnalysis standard sequences
 #
 
-include "ElectroWeakAnalysis/ZReco/data/ZRecoPaths.cff"
+include "ElectroWeakAnalysis/ZReco/data/ZReco_SkimPaths.cff"
 
