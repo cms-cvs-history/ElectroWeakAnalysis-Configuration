@@ -1,1 +1,3 @@
 include "ElectroWeakAnalysis/ZReco/data/ZReco_OutputModules.cff"
+include "ElectroWeakAnalysis/ZReco/data/WReco_OutputModules.cff"
+
