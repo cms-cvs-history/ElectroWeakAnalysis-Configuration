@@ -3,7 +3,8 @@
 #
 
 include "ElectroWeakAnalysis/ZReco/data/ZReco.cff"
+include "ElectroWeakAnalysis/WReco/data/WReco.cff"
 
 sequence electroWeakAnalysis = {
-  zReco
+  zReco,wReco
 }
