@@ -4,6 +4,7 @@
 
 include "ElectroWeakAnalysis/ZReco/data/zToMuMu_EventContent.cff"
 include "ElectroWeakAnalysis/ZReco/data/zToEE_EventContent.cff"
+include "ElectroWeakAnalysis/ZReco/data/zToTauTau_ETau_EventContent.cff"
 
 block ElectroWeakAnalysisEventContent = {
   untracked vstring outputCommands = {
