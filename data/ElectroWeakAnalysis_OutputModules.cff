@@ -1,3 +1,18 @@
 include "ElectroWeakAnalysis/ZReco/data/ZReco_OutputModules.cff"
 include "ElectroWeakAnalysis/WReco/data/WReco_OutputModules.cff"
 
+sequence ElectroWeakAnalysisOutput = {
+zToMuMuOutputModuleAODSIM &
+zToMuMuOutputModuleRECOSIM &
+zToTauTau_DoubleTauOutputModuleAODSIM &
+zToTauTau_EMuOutputModuleRECOSIM &
+zToTauTauETauOutputModuleAODSIM &
+zToTauTauETauOutputModuleRECOSIM &
+zToTauTau_MuTauOutputModuleAODSIM &
+L1RPCEventContent &
+AODSIMWToENuEventContent &
+AODSIMWToMuNuEventContent &
+AODSIMWToTauNuEventContent
+}
+                                                                                                              
+
