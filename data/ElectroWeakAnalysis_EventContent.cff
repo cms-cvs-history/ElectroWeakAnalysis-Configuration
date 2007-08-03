@@ -14,3 +14,5 @@ block ElectroWeakAnalysisEventContent = {
 
 replace ElectroWeakAnalysisEventContent.outputCommands += zToMuMuEventContent.outputCommands
 replace ElectroWeakAnalysisEventContent.outputCommands += zToEEEventContent.outputCommands
+replace ElectroWeakAnalysisEventContent.outputCommands += zToTauTauETauEventContent.outputCommands
+
