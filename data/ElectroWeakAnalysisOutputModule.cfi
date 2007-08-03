@@ -1,0 +1,12 @@
+include "ElectroWeakAnalysis/ZReco/data/zToEEOutputModule.cfi"
+include "ElectroWeakAnalysis/ZReco/data/zToMuMuOutputModule.cfi"
+include "ElectroWeakAnalysis/ZReco/data/zToTauTau_DoubleTauOutputModule.cfi"
+include "ElectroWeakAnalysis/ZReco/data/zToTauTau_EMuOutputModule.cfi"
+include "ElectroWeakAnalysis/ZReco/data/zToTauTau_ETauOutputModule.cfi"
+include "ElectroWeakAnalysis/ZReco/data/zToTauTau_MuTauOutputModule.cfi"
+include "ElectroWeakAnalysis/WReco/data/l1RPCOutputModule.cfi"
+include "ElectroWeakAnalysis/WReco/data/wToENuOutputModule.cfi"
+include "ElectroWeakAnalysis/WReco/data/wToMuNuOutputModule.cfi"
+include "ElectroWeakAnalysis/WReco/data/wToMuNu_OutputModuleTest.cfi"
+include "ElectroWeakAnalysis/WReco/data/wToTauNuOutputModule.cfi"
+
