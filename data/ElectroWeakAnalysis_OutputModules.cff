@@ -4,10 +4,10 @@ include "ElectroWeakAnalysis/WReco/data/WReco_OutputModules.cff"
 sequence ElectroWeakAnalysisOutput = {
 zToMuMuOutputModuleAODSIM &
 zToMuMuOutputModuleRECOSIM &
+zToEEOutputModule &
 zToTauTau_DoubleTauOutputModuleAODSIM &
 zToTauTau_EMuOutputModuleRECOSIM &
-zToTauTauETauOutputModuleAODSIM &
-zToTauTauETauOutputModuleRECOSIM &
+zToTauTau_ETauOutputModuleAODSIM &
 zToTauTau_MuTauOutputModuleAODSIM &
 L1RPCEventContent &
 AODSIMWToENuEventContent &
