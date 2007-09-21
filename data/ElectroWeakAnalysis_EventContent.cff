@@ -3,6 +3,7 @@
 #
 
 include "ElectroWeakAnalysis/ZReco/data/zToMuMu_EventContent.cff"
+include "ElectroWeakAnalysis/ZReco/data/zToMuMuGolden_EventContent.cff"
 include "ElectroWeakAnalysis/ZReco/data/zToEE_EventContent.cff"
 include "ElectroWeakAnalysis/ZReco/data/zToTauTau_ETau_EventContent.cff"
 
@@ -13,6 +14,7 @@ block ElectroWeakAnalysisEventContent = {
 
 
 replace ElectroWeakAnalysisEventContent.outputCommands += zToMuMuEventContent.outputCommands
+replace ElectroWeakAnalysisEventContent.outputCommands += zToMuMuGoldenEventContent.outputCommands
 replace ElectroWeakAnalysisEventContent.outputCommands += zToEEEventContent.outputCommands
 replace ElectroWeakAnalysisEventContent.outputCommands += zToTauTauETauEventContent.outputCommands
 
