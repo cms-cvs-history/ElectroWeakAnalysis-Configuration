@@ -1,7 +1,0 @@
-#
-# ElectroWeakAnalysis standard sequences
-#
-
-include "ElectroWeakAnalysis/ZReco/data/ZReco_SkimPaths.cff"
-include "ElectroWeakAnalysis/WReco/data/WReco_SkimPaths.cff"
-
